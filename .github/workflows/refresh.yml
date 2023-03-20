@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: First Try
+        continue-on-error: true
         run: wget "https://tokei.tvj.one/b1/github/mmcesim/mmcesim?style=flat"
       - name: Second Try
+        continue-on-error: true
         run: wget https://tokei.tvj.one/b1/github/mmcesim/mmcesim
