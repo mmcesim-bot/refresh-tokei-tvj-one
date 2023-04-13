@@ -9,3 +9,6 @@ This action will perform
 wget "https://tokei.tvj.one/b1/github/mmcesim/mmcesim?style=flat"
 wget https://tokei.tvj.one/b1/github/mmcesim/mmcesim
 ```
+
+> **Note** Since the timing of GitHub Actions is not accurate, which sometimes can have interval of more than 15 minutes,
+> a cron task is also set up on one Linux server.
